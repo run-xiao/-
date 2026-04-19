@@ -1,0 +1,14 @@
+[
+  {
+    "time": "16:21",
+    "label": "新闹钟",
+    "enabled": true,
+    "sound_type": "file",
+    "sound": "d:\\桌面\\编程\\文件\\alarm_sounds\\电子闹铃.wav",
+    "sound_path": "d:\\桌面\\编程\\文件\\alarm_sounds\\电子闹铃.wav",
+    "last_triggered": "16:21",
+    "is_snoozing": true,
+    "original_time": "16:11",
+    "snooze_time": "16:26"
+  }
+]
