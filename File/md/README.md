@@ -22,7 +22,7 @@ pip install -r requirements.txt
 或者手动安装：
 
 ```bash
-pip install psutil pystray Pillow
+pip install psutil pystray Pillow win10toast
 ```
 
 ## 运行程序
@@ -76,7 +76,7 @@ python LDD.py
 - **GUI框架** - Tkinter（Python内置）
 - **系统托盘** - pystray库
 - **系统监控** - psutil库
-- **闹钟声音** - win10toast库
+- **闹钟提示** - win10toast库
 - **Windows API** - ctypes调用
 
 ### 文件结构
