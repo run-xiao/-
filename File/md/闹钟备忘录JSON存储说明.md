@@ -15,15 +15,16 @@
 ```json
 [
   {
-    "time": "08:00",
-    "label": "起床闹钟",
+    "time": "16:21",
+    "label": "新闹钟",
     "enabled": true,
-    "last_triggered": "2024-01-01 08:00"
-  },
-  {
-    "time": "14:30",
-    "label": "会议提醒",
-    "enabled": false
+    "sound_type": "file",
+    "sound": "d:\\桌面\\编程\\文件\\alarm_sounds\\电子闹铃.wav",
+    "sound_path": "d:\\桌面\\编程\\文件\\alarm_sounds\\电子闹铃.wav",
+    "last_triggered": "16:21",
+    "is_snoozing": true,
+    "original_time": "16:11",
+    "snooze_time": "16:26"
   }
 ]
 ```
@@ -41,8 +42,6 @@
   }
 ]
 ```
-
-## 新增功能
 
 ### 1. 刷新按钮
 在闹钟和备忘录管理窗口底部添加了**🔄 刷新**按钮，点击后从JSON文件重新加载最新数据。
